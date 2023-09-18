@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23f9c609-5bea-4e5d-a60d-9d5df0073e15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/BookDetailsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/BookEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/book.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.min-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.min-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.min.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl.min-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl.min-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl.min.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.min-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.min-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.min.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl.min-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl.min-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl.min.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.min-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.min-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.min.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl.min-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl.min-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl.min.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.min-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.min-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.min.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl.min-jsf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl.min-jsf.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl.min.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.bundle.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.bundle.min.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.esm.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.esm.min.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.min.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_accordion.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_alert.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_badge.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_breadcrumb.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_button-group.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_buttons.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_card.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_carousel.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_close.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_containers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_containers.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_dropdown.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_forms.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_functions.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_grid.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_helpers.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_images.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_list-group.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_mixins.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_modal.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_nav.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_navbar.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_offcanvas.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_pagination.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_placeholders.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_popover.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_progress.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_reboot.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_root.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_spinners.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_tables.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_toasts.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_tooltip.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_transitions.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_type.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_utilities.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/_variables.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/bootstrap-grid.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/bootstrap-reboot.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/bootstrap-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/bootstrap-utilities.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/bootstrap.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_floating-labels.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-check.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-control.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-range.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-select.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_form-text.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_input-group.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_labels.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/forms/_validation.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_clearfix.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_colored-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_colored-links.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_position.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_ratio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_ratio.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_stacks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_stacks.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_stretched-link.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_text-truncation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_text-truncation.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_visually-hidden.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_vr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/helpers/_vr.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_alert.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_backdrop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_backdrop.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_border-radius.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_box-shadow.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_breakpoints.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_buttons.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_caret.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_clearfix.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_color-scheme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_color-scheme.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_container.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_deprecate.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_forms.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_gradients.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_grid.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_image.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_list-group.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_lists.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_pagination.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_reset-text.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_resize.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_table-variants.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_text-truncate.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_transition.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_utilities.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/mixins/_visually-hidden.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/utilities/_api.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/scss/vendor/_rfs.scss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/webjars-requirejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/webjars-requirejs.js.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/configuration/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/configuration/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/helloWorld/greeting.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hienngo12"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LoanNguyenT5/mvc_demo_day1.git",
+    "accountId": "f0099638-1a0c-4e09-82de-079c6af3348e"
+  }
+}]]></component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2l0hjzJ2iRc4GtxgmAVxLhqvEHp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.mvc_hello [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Smart Tomcat.tomcat.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/java/demo_spring/mvc_demo_day02/src/main/webapp"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\demo_spring\mvc_demo_day02\src\main\webapp\resources" />
+      <recent name="E:\java\demo_spring\mvc_demo_day02\src\main\webapp\resources\bootstrap" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="tomcat" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="E:\java\demo_spring\mvc_demo_day02" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="E:\java\demo_spring\mvc_demo_day02\src\main\webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8081" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.93 (2)" />
+          <option name="path" value="$PROJECT_DIR$/../../tomcat" />
+          <option name="version" value="9.0.93.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="mvc_hello" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23f9c609-5bea-4e5d-a60d-9d5df0073e15" name="Changes" comment="" />
+      <created>1724323040465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724323040465</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,41 +1,32 @@
 package mvc.entity;
 
-import mvc.valid.BasicInfor;
-
 import javax.persistence.*;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
-@Table(name="book")
+@Table(name = "book")
 public class BookEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column (name="id")
+    @Column(name = "id")
     private int id;
 
-    //@NotEmpty(groups = BasicInfor.class)
-    @NotEmpty
-    @Column (name="name")
+
+    @Column(name = "name")
     private String name;
 
-    @Column (name="author")
+    @Column(name = "author")
     private String author;
 
-    @Valid
-    @NotNull(groups = BasicInfor.class)
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "categoryId")
+    @ManyToOne
+    @JoinColumn(name = "categoryId", nullable = false) // Thêm nullable = false nếu category là bắt buộc
     private CategoryEntity category;
 
-    @Valid
-    @NotNull(groups = BasicInfor.class)
-    @OneToOne(cascade = {CascadeType.ALL})
-    @PrimaryKeyJoinColumn
+    @OneToOne(cascade = CascadeType.ALL, mappedBy = "book", orphanRemoval = true)
     private BookDetailsEntity bookDetails;
 
-    public BookEntity() {
-    }
+
+    public BookEntity() {}
 
     public int getId() {
         return id;

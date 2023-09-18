@@ -1,36 +1,36 @@
 package mvc.entity;
 
-import mvc.valid.BasicInfor;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
-import javax.validation.Valid;
-import javax.validation.constraints.Min;
 import java.time.LocalDate;
 
 @Entity
-@Table(name="bookdetails")
+@Table(name = "bookdetails")
 public class BookDetailsEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column (name="id")
+    @Column(name = "id")
     private int id;
 
-    @Column (name="isbn")
+    @Column(name = "isbn")
     private String isbn;
 
-    @Column (name="price")
-    private double price;
+    @Column(name = "price")
+    private int price;
 
-    @Min(value = 10, groups = BasicInfor.class)
-    @Column (name="numberOfPage")
+    @Column(name = "numberOfPage")
     private int numberOfPage;
 
-    @Column (name="publishDate")
     @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @Column(name = "publish_date")
     private LocalDate publishDate;
 
-    @OneToOne(mappedBy = "bookDetails")
+    @OneToOne
+    @JsonIgnore
+    @JoinColumn(name = "book_id", referencedColumnName = "id")
     private BookEntity book;
 
     public BookDetailsEntity() {
@@ -52,11 +52,11 @@ public class BookDetailsEntity {
         this.isbn = isbn;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
@@ -83,8 +83,16 @@ public class BookDetailsEntity {
     public void setBook(BookEntity book) {
         this.book = book;
     }
+
     @Override
     public String toString() {
-        return "Price = "+ price;
+        return "BookDetailsEntity{" +
+                "id=" + id +
+                ", isbn='" + isbn + '\'' +
+                ", price=" + price +
+                ", numberOfPage=" + numberOfPage +
+                ", publishDate=" + publishDate +
+                ", book=" + book +
+                '}';
     }
 }

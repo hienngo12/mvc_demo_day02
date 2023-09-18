@@ -1,0 +1,124 @@
+22-Aug-2024 17:45:34.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.93
+22-Aug-2024 17:45:34.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 21:24:59 UTC
+22-Aug-2024 17:45:34.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.93.0
+22-Aug-2024 17:45:34.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Aug-2024 17:45:34.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Aug-2024 17:45:34.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Aug-2024 17:45:34.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\DELL\.jdks\corretto-1.8.0_422\jre
+22-Aug-2024 17:45:34.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Aug-2024 17:45:34.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Aug-2024 17:45:34.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\java\demo_spring\mvc_demo_day02
+22-Aug-2024 17:45:34.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\java\tomcat
+22-Aug-2024 17:45:34.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\java\tomcat
+22-Aug-2024 17:45:34.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\java\demo_spring\mvc_demo_day02
+22-Aug-2024 17:45:34.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\java\demo_spring\mvc_demo_day02\temp
+22-Aug-2024 17:45:34.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\java\demo_spring\mvc_demo_day02\conf\logging.properties
+22-Aug-2024 17:45:34.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Aug-2024 17:45:34.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\java\spring boot\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=50883:E:\java\spring boot\IntelliJ IDEA Community Edition 2024.1.4\bin
+22-Aug-2024 17:45:34.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Aug-2024 17:45:34.049 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\DELL\.jdks\corretto-1.8.0_422\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Cloud Foundry;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\DELL\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\AppData\Roaming\nvm;C:\Program Files\nodejs;.]
+22-Aug-2024 17:45:34.487 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:45:34.514 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [725] milliseconds
+22-Aug-2024 17:45:34.572 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Aug-2024 17:45:34.572 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.93]
+22-Aug-2024 17:45:34.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\java\demo_spring\mvc_demo_day02\conf\Catalina\localhost\mvc_hello.xml]
+22-Aug-2024 17:45:37.938 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Aug-2024 17:45:38.122 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [144] milliseconds.
+22-Aug-2024 17:45:39.870 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+22-Aug-2024 17:45:40.053 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.4.23.Final
+22-Aug-2024 17:45:40.365 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-Aug-2024 17:45:41.098 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+22-Aug-2024 17:45:41.739 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.6.Final
+22-Aug-2024 17:45:43.078 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-Aug-2024 17:45:44.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\java\demo_spring\mvc_demo_day02\conf\Catalina\localhost\mvc_hello.xml] has finished in [10,123] ms
+22-Aug-2024 17:45:44.713 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:45:44.997 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10483] milliseconds
+22-Aug-2024 17:46:15.965 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:46:16.093 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Aug-2024 17:46:16.117 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mvc_hello] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Aug-2024 17:46:16.118 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [mvc_hello] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+22-Aug-2024 17:46:16.127 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:46:16.146 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:46:20.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.93
+22-Aug-2024 17:46:20.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 21:24:59 UTC
+22-Aug-2024 17:46:20.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.93.0
+22-Aug-2024 17:46:20.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Aug-2024 17:46:20.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Aug-2024 17:46:20.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Aug-2024 17:46:20.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\DELL\.jdks\corretto-1.8.0_422\jre
+22-Aug-2024 17:46:20.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Aug-2024 17:46:20.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Aug-2024 17:46:20.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\java\demo_spring\mvc_demo_day02
+22-Aug-2024 17:46:20.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\java\tomcat
+22-Aug-2024 17:46:20.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:50915,suspend=y,server=n
+22-Aug-2024 17:46:20.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\java\tomcat
+22-Aug-2024 17:46:20.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\java\demo_spring\mvc_demo_day02
+22-Aug-2024 17:46:20.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\java\demo_spring\mvc_demo_day02\temp
+22-Aug-2024 17:46:20.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\java\demo_spring\mvc_demo_day02\conf\logging.properties
+22-Aug-2024 17:46:20.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Aug-2024 17:46:20.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\DELL\AppData\Local\JetBrains\IdeaIC2024.1\captureAgent\debugger-agent.jar
+22-Aug-2024 17:46:20.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Aug-2024 17:46:20.892 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\DELL\.jdks\corretto-1.8.0_422\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Cloud Foundry;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\DELL\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\AppData\Roaming\nvm;C:\Program Files\nodejs;.]
+22-Aug-2024 17:46:21.342 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:46:21.376 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [800] milliseconds
+22-Aug-2024 17:46:21.425 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Aug-2024 17:46:21.426 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.93]
+22-Aug-2024 17:46:21.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\java\demo_spring\mvc_demo_day02\conf\Catalina\localhost\mvc_hello.xml]
+22-Aug-2024 17:46:24.259 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Aug-2024 17:46:26.492 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+22-Aug-2024 17:46:26.646 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.4.23.Final
+22-Aug-2024 17:46:26.951 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-Aug-2024 17:46:27.879 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+22-Aug-2024 17:47:11.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.93
+22-Aug-2024 17:47:11.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 21:24:59 UTC
+22-Aug-2024 17:47:11.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.93.0
+22-Aug-2024 17:47:11.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Aug-2024 17:47:11.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Aug-2024 17:47:11.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Aug-2024 17:47:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\DELL\.jdks\corretto-1.8.0_422\jre
+22-Aug-2024 17:47:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_422-b05
+22-Aug-2024 17:47:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+22-Aug-2024 17:47:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\java\demo_spring\mvc_demo_day02
+22-Aug-2024 17:47:11.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\java\tomcat
+22-Aug-2024 17:47:11.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\java\tomcat
+22-Aug-2024 17:47:11.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\java\demo_spring\mvc_demo_day02
+22-Aug-2024 17:47:11.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\java\demo_spring\mvc_demo_day02\temp
+22-Aug-2024 17:47:11.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\java\demo_spring\mvc_demo_day02\conf\logging.properties
+22-Aug-2024 17:47:11.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Aug-2024 17:47:11.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\java\spring boot\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=50921:E:\java\spring boot\IntelliJ IDEA Community Edition 2024.1.4\bin
+22-Aug-2024 17:47:11.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-Aug-2024 17:47:11.664 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\DELL\.jdks\corretto-1.8.0_422\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Cloud Foundry;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\DELL\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\AppData\Roaming\nvm;C:\Program Files\nodejs;.]
+22-Aug-2024 17:47:12.198 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:47:12.241 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [871] milliseconds
+22-Aug-2024 17:47:12.325 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Aug-2024 17:47:12.325 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.93]
+22-Aug-2024 17:47:12.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\java\demo_spring\mvc_demo_day02\conf\Catalina\localhost\ROOT.xml]
+22-Aug-2024 17:47:15.536 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Aug-2024 17:47:15.716 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [146] milliseconds.
+22-Aug-2024 17:47:17.041 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+22-Aug-2024 17:47:17.134 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.4.23.Final
+22-Aug-2024 17:47:17.368 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-Aug-2024 17:47:18.080 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+22-Aug-2024 17:47:18.700 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.6.Final
+22-Aug-2024 17:47:20.058 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-Aug-2024 17:47:21.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\java\demo_spring\mvc_demo_day02\conf\Catalina\localhost\ROOT.xml] has finished in [9,290] ms
+22-Aug-2024 17:47:21.640 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:47:21.799 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9557] milliseconds
+22-Aug-2024 17:48:27.311 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:48:27.570 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Aug-2024 17:48:27.605 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Aug-2024 17:48:27.607 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+22-Aug-2024 17:48:27.620 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+22-Aug-2024 17:48:27.636 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]

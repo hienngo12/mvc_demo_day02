@@ -1,28 +1,29 @@
+
 package mvc.entity;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @Entity
-@Table(name="category")
+@Table(name = "category")
 public class CategoryEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column (name="id")
-    @NotNull
+    @Column(name = "id")
     private int id;
-    @Column (name="name")
+
+    @Column(name = "name")
     private String name;
 
-    @Column (name="description")
+    @Column(name = "description")
     private String description;
 
-    @OneToMany(mappedBy = "category", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "category", fetch = FetchType.EAGER)
     private List<BookEntity> bookEntityList;
 
-    public CategoryEntity() {
-    }
+    // Constructors, Getters and Setters
+
+    public CategoryEntity() {}
 
     public int getId() {
         return id;
